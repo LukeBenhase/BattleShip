@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Battleship</title>
+  <script defer src="main.js"></script></head>
+  <body>
+    <div id="header">
+      <h1>Battleship</h1>
+    </div>
+    <div id="game">
+      <div>
+        <p>Player</p>
+        <div id="board-player"></div>
+      </div>
+      <div>
+        <p>Computer</p>
+        <div id="board-computer"></div>
+      </div>
+      <div id="controls">
+        <label>
+          <input type="radio" name="ship" value="0" checked />
+          Carrier
+        </label>
+        <label>
+          <input type="radio" name="ship" value="1" />
+          Cruiser
+        </label>
+        <label>
+          <input type="radio" name="ship" value="2" />
+          Cruiser
+        </label>
+        <label>
+          <input type="radio" name="ship" value="3" />
+          Battleship
+        </label>
+        <label>
+          <input type="radio" name="ship" value="4" />
+          Destroyer
+        </label>
+        <button id="rotate-button" value="horizontal">Horizontal</button>
+        <button id="start-button">Start Game</button>
+      </div>
+    </div>
+  </body>
+</html>
